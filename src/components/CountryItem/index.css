@@ -1,0 +1,36 @@
+.visit-list-item {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 200px;
+  background-color: #1f1f2f;
+  margin: 8px;
+}
+.image {
+  width: 100%;
+  height: 90%;
+  margin-bottom: 2px;
+}
+.list-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+.visited-name {
+  color: #f1f5f9;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.remove-btn {
+  color: #f1f5f9;
+  background-color: transparent;
+  border: solid 2px #f1f5f9;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  border-radius: 4px;
+  padding: 4px;
+}

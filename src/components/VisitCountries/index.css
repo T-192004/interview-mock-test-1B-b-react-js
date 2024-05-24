@@ -1,0 +1,29 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  background-size: cover;
+  height: 100vh;
+  background-color: #161624;
+}
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+}
+.countries-list-container {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  height: 60vh;
+  align-self: center;
+  width: 80%;
+}
+.visit-countries-list {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  overflow: auto;
+  height: 40vh;
+}
